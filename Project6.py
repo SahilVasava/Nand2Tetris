@@ -137,7 +137,6 @@ def translateA(inst,n):
         except ValueError:
             symbolTable[symbol] = n
             c = Code(n)
-            n += 1
             return c.value(), True
     
 
